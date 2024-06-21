@@ -11,9 +11,10 @@ The model's performance was evaluated using the Rouge metric, achieving a RougeL
 
 Notebook Content:
 
-Azure configuration setup
-Pinecone vector DB configuration
-Retrieval and generation implementation
-Evaluation using Rouge metric
+### Azure configuration setup
+### Pinecone vector DB configuration
+### Retrieval and generation implementation
+### Evaluation using Rouge metric
+
 This notebook provides a straightforward and comprehensive approach to deploying and evaluating a RAG model for IPL 2024 data.
 
