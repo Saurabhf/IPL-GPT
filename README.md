@@ -1,9 +1,19 @@
 # IPL-GPT 2024
-This repository contains a notebook for Retrieval-Augmented Generation (RAG) model using Azure and Azure OpenAI, with Pinecone for embedding storage. The model processes data from the IPL 2024 qualifier rounds and the final match, integrating advanced retrieval and generation capabilities to provide contextual insights.
+This repository features an end-to-end notebook showcasing a Retrieval-Augmented Generation (RAG) model using Azure and Azure OpenAI, alongside Pinecone for efficient embedding storage. The model leverages data from the IPL 2024 qualifier rounds and final match, integrating advanced retrieval and generation capabilities to offer contextual insights.
 
-- **Azure Services:** Utilizes Azure for deployment and Azure OpenAI for natural language generation.
-- **Pinecone Vector DB:** Stores embeddings for efficient and scalable retrieval.
-- **Cricket Data:** Focused on IPL 2024 qualifiers and final match statistics.
+Key Features:
 
-The model was evaluated using the Rouge metric to assess the generated responses. The RougeL score for the generated responses is 0.60.
+Azure Configuration: Deployed on Azure with Azure OpenAI for natural language generation.
+Pinecone Vector DB: Utilizes Pinecone for storing embeddings, ensuring efficient and scalable retrieval.
+Cricket Data: Focuses on IPL 2024 qualifier and final match statistics.
+Evaluation:
+The model's performance was evaluated using the Rouge metric, achieving a RougeL score of 0.60 for generated responses.
+
+Notebook Content:
+
+Azure configuration setup
+Pinecone vector DB configuration
+Retrieval and generation implementation
+Evaluation using Rouge metric
+This notebook provides a straightforward and comprehensive approach to deploying and evaluating a RAG model for IPL 2024 data.
 
